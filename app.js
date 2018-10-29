@@ -39,7 +39,17 @@ app.get("/", function (req, res) {
   //res.sendFile(path.join(__dirname + '/assets/index.html'))
   res.render("index.ejs")
  })
- 
+
+ app.get("/about", function (req, res) {
+  res.render("aboutus.ejs")
+ })
+
+ app.get("/contact", function (req, res) {
+  res.render("contactus.ejs")
+ })
+//  app.get("/404", function (req, res) {
+//   res.render("404.ejs")
+//  })
  app.get(function (req, res) {
   res.render('404')
 })
