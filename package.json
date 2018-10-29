@@ -1,0 +1,20 @@
+{
+    "name": "EmptyYourPockets",
+    "version": "0.0.1",
+    "description": "E-commerce site",
+    "main": "app.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest",
+        "nodemailer": "~4.6.8"
+    },
+    "author": "Pradeep Kolli Dave Saroj Gangadhar",
+    "homepage": "https://github.com/ForeverAnApple/EmptyYourPockets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ForeverAnApple/EmptyYourPockets"
+    },
+    "license": "Apache-2.0"
+}
