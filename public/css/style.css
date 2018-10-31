@@ -130,5 +130,6 @@ footer{
 	letter-spacing:10px;
 	clear:left;
 	font-family: 'GoodTimes',Arial, Helvetica, sans-serif;
-	width:100%;
+    width:100%;
+    left:0;
 }
