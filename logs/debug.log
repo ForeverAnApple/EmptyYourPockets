@@ -1,0 +1,30 @@
+2018-11-12T03:59:55.394Z - info: Environment variables loaded.
+2018-11-12T03:59:55.447Z - error: uncaughtException: logger is not defined date=Sun Nov 11 2018 21:59:55 GMT-0600 (Central Standard Time), pid=28332, uid=null, gid=null, cwd=C:\S533705\44563\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\S533705\44563\EmptyYourPockets\app.js], rss=67178496, heapTotal=62304256, heapUsed=36315088, external=19357901, loadavg=[0, 0, 0], uptime=212918.8858455
+ReferenceError: logger is not defined
+    at Object.<anonymous> (C:\S533705\44563\EmptyYourPockets\app.js:43:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-12T04:08:15.245Z - info: Environment variables loaded.
+2018-11-12T04:14:22.520Z - info: Environment variables loaded.
+2018-11-12T04:14:36.676Z - info: Environment variables loaded.
+2018-11-12T04:14:51.163Z - info: Environment variables loaded.
+2018-11-12T04:16:32.649Z - info: Environment variables loaded.
+2018-11-12T04:22:43.976Z - info: Environment variables loaded.
+2018-11-12T05:13:53.038Z - info: Environment variables loaded.
+2018-11-12T05:13:53.087Z - info: START seeder.
+2018-11-12T05:13:53.093Z - debug: 5 products seeded
+2018-11-12T05:13:53.094Z - info: END Seeder. Sample data read and verified.
+2018-11-12T18:42:39.588Z - info: Environment variables loaded.
+2018-11-12T18:42:39.654Z - info: START seeder.
+2018-11-12T18:42:39.663Z - debug: 5 products seeded
+2018-11-12T18:42:39.664Z - info: END Seeder. Sample data read and verified.
+2018-11-12T18:49:24.162Z - info: Environment variables loaded.
+2018-11-12T18:49:24.210Z - info: START seeder.
+2018-11-12T18:49:24.215Z - debug: 5 products seeded
+2018-11-12T18:49:24.217Z - info: END Seeder. Sample data read and verified.
