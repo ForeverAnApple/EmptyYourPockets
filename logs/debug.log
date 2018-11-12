@@ -28,3 +28,15 @@ ReferenceError: logger is not defined
 2018-11-12T18:49:24.210Z - info: START seeder.
 2018-11-12T18:49:24.215Z - debug: 5 products seeded
 2018-11-12T18:49:24.217Z - info: END Seeder. Sample data read and verified.
+2018-11-12T19:21:20.910Z - info: Environment variables loaded.
+2018-11-12T19:21:20.953Z - info: START seeder.
+2018-11-12T19:21:20.959Z - debug: 5 products seeded
+2018-11-12T19:21:20.961Z - info: END Seeder. Sample data read and verified.
+2018-11-12T19:22:48.355Z - info: Environment variables loaded.
+2018-11-12T19:22:48.406Z - info: START seeder.
+2018-11-12T19:22:48.413Z - debug: 5 products seeded
+2018-11-12T19:22:48.414Z - info: END Seeder. Sample data read and verified.
+2018-11-12T19:29:03.009Z - info: Environment variables loaded.
+2018-11-12T19:29:03.051Z - info: START seeder.
+2018-11-12T19:29:03.059Z - debug: 5 products seeded
+2018-11-12T19:29:03.059Z - info: END Seeder. Sample data read and verified.
