@@ -1,3 +1,7 @@
+/**
+ * Product schema to store all product details by using mongoose 
+ * @author Adusumalli, Gangadhar
+ */
 const mongoose = require('mongoose')
 
 const ProductSchema = new mongoose.Schema({
