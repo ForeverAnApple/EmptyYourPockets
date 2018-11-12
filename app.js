@@ -53,6 +53,10 @@ app.get("/", function (req, res) {
   res.render("index.ejs")
  })
 
+ app.get("/products", function (req, res) {
+  res.render("products.ejs")
+ })
+
  app.get("/about", function (req, res) {
   res.render("aboutus.ejs")
  })

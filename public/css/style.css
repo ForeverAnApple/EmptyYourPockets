@@ -185,6 +185,7 @@ section p{
 .carousel-item img{
 	height: calc(100vh - 110px);
 }
+
 section ol{
 	font-size:medium;
 	padding-left:15px;
