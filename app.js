@@ -66,6 +66,9 @@ app.get("/", function (req, res) {
  app.get(function (req, res) {
   res.render('404')
 })
+
+// initialize data ............................................
+require('./utils/seeder.js')(app)  
  
  // Listen for an application request on designated port
  app.listen(port, function () {
