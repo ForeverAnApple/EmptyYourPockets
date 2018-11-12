@@ -1,0 +1,13 @@
+2018-11-12T03:59:55.394Z - info: Environment variables loaded.
+2018-11-12T03:59:55.447Z - error: uncaughtException: logger is not defined date=Sun Nov 11 2018 21:59:55 GMT-0600 (Central Standard Time), pid=28332, uid=null, gid=null, cwd=C:\S533705\44563\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\S533705\44563\EmptyYourPockets\app.js], rss=67178496, heapTotal=62304256, heapUsed=36315088, external=19357901, loadavg=[0, 0, 0], uptime=212918.8858455
+ReferenceError: logger is not defined
+    at Object.<anonymous> (C:\S533705\44563\EmptyYourPockets\app.js:43:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-12T04:08:15.245Z - info: Environment variables loaded.

@@ -1,7 +1,17 @@
-const path = require("path")
-const express = require("express")
-const logger = require("morgan")
-const bodyParser = require("body-parser")
+const express = require('express')
+const http = require('http')
+const expressLayouts = require('express-ejs-layouts')
+const favicon = require('serve-favicon')
+const path = require('path')
+const bodyParser = require('body-parser')
+const engines = require('consolidate')
+const session = require('express-session')
+const errorHandler = require('errorhandler')
+const dotenv = require('dotenv')
+const mongoose = require('mongoose')
+const expressValidator = require('express-validator')
+const expressStatusMonitor = require('express-status-monitor')
+const LOG = require('./utils/logger.js')
 const logfile = '/access.log'
 const app = express()  // make express app
 const port = process.env.PORT  || 8081
@@ -15,7 +25,8 @@ const fs = require('fs')
 // 4 handle valid GET requests
 // 5 handle valid POST request
 // 6 respond with 404 if a bad URI is requested
-
+dotenv.load({ path: '.env' })
+LOG.info('Environment variables loaded.')
 app.set('views', path.resolve(__dirname, 'views')) // path to views
 app.set('view engine', 'ejs') // specify our view engine
 
@@ -23,12 +34,14 @@ app.set('view engine', 'ejs') // specify our view engine
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
+app.use(expressLayouts)
+app.use(errorHandler()) // load error handler
 
 // 3 log requests to stdout and also
 // log HTTP requests to a file using the standard Apache combined format
-var accessLogStream = fs.createWriteStream(__dirname + '/access.log', { flags: 'a' });
-app.use(logger('dev'));
-app.use(logger('combined', { stream: accessLogStream }));
+//var accessLogStream = fs.createWriteStream(__dirname + '/access.log', { flags: 'a' });
+//app.use(logger('dev'));
+//app.use(logger('combined', { stream: accessLogStream }));
 
 app.get("/", function (req, res) {
   //res.sendFile(path.join(__dirname + '/assets/index.html'))
