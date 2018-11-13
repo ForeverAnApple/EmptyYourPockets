@@ -34,7 +34,7 @@ app.set('view engine', 'ejs') // specify our view engine
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-app.use(expressLayouts)
+//app.use(expressLayouts)
 app.use(errorHandler()) // load error handler
 
 // 3 log requests to stdout and also
@@ -51,6 +51,22 @@ app.get("/", function (req, res) {
  app.get("/index", function (req, res) {
   //res.sendFile(path.join(__dirname + '/assets/index.html'))
   res.render("index.ejs")
+ })
+
+ app.get("/products", function (req, res) {
+  res.render("products.ejs")
+ })
+
+ app.get("/order", function (req, res) {
+  res.render("order.ejs")
+ })
+
+ app.get("/orderLine", function (req, res) {
+  res.render("orderLine.ejs")
+ })
+
+ app.get("/customer", function (req, res) {
+  res.render("customer.ejs")
  })
 
  app.get("/about", function (req, res) {

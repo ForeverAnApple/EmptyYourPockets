@@ -2,6 +2,8 @@ node_modules
 .history
 .vscode
 /.vscode
+access.log
+logs
 
 
 lib-cov
@@ -13,6 +15,7 @@ lib-cov
 *.pid
 *.gz
 *.swp
+
 
 pids
 results
