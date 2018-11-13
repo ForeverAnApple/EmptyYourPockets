@@ -18,6 +18,9 @@ pids
 results
 tmp
 
+# Debug log is individual
+logs/debug.log
+
 # API keys and secrets
 .env
 
