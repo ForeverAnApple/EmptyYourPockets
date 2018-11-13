@@ -1,5 +1,5 @@
 /**
- * Product schema to store all order details by using mongoose 
+ * Order schema to store all order details by using mongoose 
  * @author Kolli, Pradeep
  */
 const mongoose = require('mongoose')
