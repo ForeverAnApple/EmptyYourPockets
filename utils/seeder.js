@@ -29,5 +29,7 @@ module.exports = (app) => {
   app.locals.orders = db.orders.find(orders)
   LOG.debug(`${app.locals.orders.query.length} orders seeded`)
   
-  LOG.info('END Seeder. Sample data read and verified.')
+  LOG.info('END Seeder. Sample data read and verified.');
+
+
 }
