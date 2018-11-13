@@ -1,6 +1,6 @@
 [
     {
-      "_id": 1,
+      "_productid": 1,
       "productName": "Iphone",
       "productDescription": "Iphone is a smart phone released by Apple",
       "price": 600,
@@ -8,7 +8,7 @@
       "sellerId":"1"
     },
     {
-        "_id": 2,
+        "_productid": 2,
         "productName": "Sony Mx150",
         "productDescription": "Sony Mx150 is a head phones designed by sony",
         "price": 30,
@@ -16,7 +16,7 @@
         "sellerId":"2"
       },
       {
-        "_id": 3,
+        "_productid": 3,
         "productName": "Jeans",
         "productDescription": "Jeans by Flying machine",
         "price": 25,
@@ -24,7 +24,7 @@
         "sellerId":"3"
       },
       {
-        "_id": 4,
+        "_productid": 4,
         "productName": "Polo T-shirt",
         "productDescription": "T-shirt Us polo",
         "price": 20,
@@ -32,7 +32,7 @@
         "sellerId":"4"
       },
       {
-        "_id": 5,
+        "_productid": 5,
         "productName": "Kindle",
         "productDescription": "Kindle is a tablet released by Amazon",
         "price": 200,

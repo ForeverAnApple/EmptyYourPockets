@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 
 const OrderSchema = new mongoose.Schema({
 
-  _id: { 
+  _orderid: { 
     type: Number, 
     required: true 
     },
@@ -15,7 +15,8 @@ const OrderSchema = new mongoose.Schema({
     required:true,
     default: Date.now
   }, 
-  customerID: {
+  _productid: { type: Schema.Types.ObjectId, ref: 'Product' }, 
+  _customerid: {
     type: String,
     required: true,
   }, 
