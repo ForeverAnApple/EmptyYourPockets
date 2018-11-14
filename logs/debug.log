@@ -133,3 +133,31 @@ ReferenceError: logger is not defined
 2018-11-13T22:23:05.536Z - debug: 4 orders seeded
 2018-11-13T22:23:05.537Z - debug: 4 customers seeded
 2018-11-13T22:23:05.537Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:08:03.946Z - info: Environment variables loaded.
+2018-11-14T00:08:03.991Z - info: START seeder.
+2018-11-14T00:08:03.998Z - debug: 5 products seeded
+2018-11-14T00:08:04.000Z - debug: 4 orders seeded
+2018-11-14T00:08:04.002Z - debug: 4 customers seeded
+2018-11-14T00:08:04.007Z - debug: 4 Order Line seeded
+2018-11-14T00:08:04.007Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:08:31.619Z - info: Environment variables loaded.
+2018-11-14T00:08:31.660Z - info: START seeder.
+2018-11-14T00:08:31.664Z - debug: 5 products seeded
+2018-11-14T00:08:31.668Z - debug: 4 orders seeded
+2018-11-14T00:08:31.670Z - debug: 4 customers seeded
+2018-11-14T00:08:31.672Z - debug: 4 Order Line seeded
+2018-11-14T00:08:31.672Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:13:54.464Z - info: Environment variables loaded.
+2018-11-14T00:13:54.515Z - info: START seeder.
+2018-11-14T00:13:54.520Z - debug: 5 products seeded
+2018-11-14T00:13:54.523Z - debug: 4 orders seeded
+2018-11-14T00:13:54.525Z - debug: 4 customers seeded
+2018-11-14T00:13:54.529Z - debug: 4 Order Line seeded
+2018-11-14T00:13:54.529Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:15:57.051Z - info: Environment variables loaded.
+2018-11-14T00:15:57.102Z - info: START seeder.
+2018-11-14T00:15:57.106Z - debug: 5 products seeded
+2018-11-14T00:15:57.108Z - debug: 4 orders seeded
+2018-11-14T00:15:57.110Z - debug: 4 customers seeded
+2018-11-14T00:15:57.114Z - debug: 4 Order Line seeded
+2018-11-14T00:15:57.114Z - info: END Seeder. Sample data read and verified.

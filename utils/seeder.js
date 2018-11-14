@@ -4,6 +4,7 @@ const LOG = require('../utils/logger.js')
 const products = require('../data/products.json')
 const orders = require('../data/orders.json')
 const customers = require('../data/customers.json')
+const orderLine = require('../data/orderLine.json')
 
 module.exports = (app) => {
   LOG.info('START seeder.')
@@ -41,6 +42,17 @@ module.exports = (app) => {
   app.locals.customers = db.customers.find(customers)
   LOG.debug(`${app.locals.customers.query.length} customers seeded`)
   
+  //creating orderLine datastore
+  db.orderLine = new Datastore()
+  db.orderLine.loadDatabase()
+
+  //Insert orderLine data
+  db.orderLine.insert(orderLine)
+
+  //  initialize app.locals
+  app.locals.orderLine = db.orderLine.find(orderLine)
+  LOG.debug(`${app.locals.orderLine.query.length} Order Line seeded`)
+
   LOG.info('END Seeder. Sample data read and verified.');
 
 
