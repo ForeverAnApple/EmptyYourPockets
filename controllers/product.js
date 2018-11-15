@@ -1,3 +1,7 @@
+/**
+ * Controller for the product page
+ * @author Adusumalli, Gangadhar
+ */
 const express = require('express')
 const api = express.Router()
 const Model = require('../models/products.js')

@@ -34,6 +34,10 @@ router.get("/", function (req, res) {
   res.render("products.ejs")
  })
 
+ router.get("/product/index", function (req, res) {
+  res.render("product/index.ejs")
+ })
+
  router.get("/order", function (req, res) {
   res.render("order.ejs")
  })
