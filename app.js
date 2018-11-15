@@ -37,51 +37,15 @@ app.use(bodyParser.json())
 //app.use(expressLayouts)
 app.use(errorHandler()) // load error handler
 
-// 3 log requests to stdout and also
-// log HTTP requests to a file using the standard Apache combined format
-//var accessLogStream = fs.createWriteStream(__dirname + '/access.log', { flags: 'a' });
-//app.use(logger('dev'));
-//app.use(logger('combined', { stream: accessLogStream }));
 
-app.get("/", function (req, res) {
-  //res.sendFile(path.join(__dirname + '/assets/index.html'))
-  res.render("index.ejs")
- })
+// -------------- ROUTING -----------------
 
- app.get("/index", function (req, res) {
-  //res.sendFile(path.join(__dirname + '/assets/index.html'))
-  res.render("index.ejs")
- })
+const routes = require('./routes/index.js');
+app.use('/', routes);
+LOG.info('Routing set at /routes/index.js');
 
- app.get("/products", function (req, res) {
-  res.render("products.ejs")
- })
+// ----------------------------------------
 
- app.get("/order", function (req, res) {
-  res.render("order.ejs")
- })
-
- app.get("/orderLine", function (req, res) {
-  res.render("orderLine.ejs")
- })
-
- app.get("/customer", function (req, res) {
-  res.render("customer.ejs")
- })
-
- app.get("/about", function (req, res) {
-  res.render("aboutus.ejs")
- })
-
- app.get("/contact", function (req, res) {
-  res.render("contactus.ejs")
- })
-//  app.get("/404", function (req, res) {
-//   res.render("404.ejs")
-//  })
- app.get(function (req, res) {
-  res.render('404')
-})
 
 // initialize data ............................................
 require('./utils/seeder.js')(app)  
