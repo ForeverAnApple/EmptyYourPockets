@@ -15,7 +15,7 @@ const OrderSchema = new mongoose.Schema({
     required:true,
     default: Date.now
   }, 
-  _productid: { type: Schema.Types.ObjectId, ref: 'Product' }, 
+  _productid: { type: Number, required: true }, 
   _customerid: {
     type: String,
     required: true,

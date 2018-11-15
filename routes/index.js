@@ -39,7 +39,7 @@ router.get("/", function (req, res) {
  })
 
  router.get("/order", function (req, res) {
-  res.render("order.ejs")
+  res.render("order/index.ejs")
  })
 
  router.get("/orderLine", function (req, res) {
@@ -66,7 +66,7 @@ router.get("/", function (req, res) {
 
 router.use('/costomers', require('../controllers/customers.js'));
 router.use('/product', require('../controllers/product.js'))
-
+router.use('/order', require('../controllers/order.js'))
 // ------------------------------------------------
 
 LOG.debug('Routing end.');
