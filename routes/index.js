@@ -61,6 +61,7 @@ router.get("/", function (req, res) {
 // ------------- Controller pathing ---------------
 
 router.use('/costomers', require('../controllers/customers.js'));
+router.use('/product', require('../controllers/product.js'))
 
 // ------------------------------------------------
 
