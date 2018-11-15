@@ -5,6 +5,7 @@ node_modules
 access.log
 logs
 
+
 lib-cov
 *.seed
 *.log
@@ -19,6 +20,9 @@ lib-cov
 pids
 results
 tmp
+
+# Debug log is individual
+logs/debug.log
 
 # API keys and secrets
 .env

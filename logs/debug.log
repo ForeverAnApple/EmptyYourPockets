@@ -20,6 +20,7 @@ ReferenceError: logger is not defined
 2018-11-12T05:13:53.087Z - info: START seeder.
 2018-11-12T05:13:53.093Z - debug: 5 products seeded
 2018-11-12T05:13:53.094Z - info: END Seeder. Sample data read and verified.
+<<<<<<< HEAD
 2018-11-12T18:42:39.588Z - info: Environment variables loaded.
 2018-11-12T18:42:39.654Z - info: START seeder.
 2018-11-12T18:42:39.663Z - debug: 5 products seeded
@@ -111,3 +112,417 @@ ReferenceError: logger is not defined
 2018-11-13T04:36:45.807Z - debug: 5 products seeded
 2018-11-13T04:36:45.813Z - debug: 4 orders seeded
 2018-11-13T04:36:45.840Z - info: END Seeder. Sample data read and verified.
+=======
+2018-11-12T18:30:41.535Z - info: Environment variables loaded.
+2018-11-12T18:30:41.596Z - info: START seeder.
+2018-11-12T18:30:41.603Z - debug: 5 products seeded
+2018-11-12T18:30:41.603Z - info: END Seeder. Sample data read and verified.
+2018-11-13T21:57:21.042Z - info: Environment variables loaded.
+2018-11-13T21:57:21.365Z - info: START seeder.
+2018-11-13T21:57:21.369Z - debug: 5 products seeded
+2018-11-13T21:57:21.371Z - debug: 4 orders seeded
+2018-11-13T21:57:21.371Z - info: END Seeder. Sample data read and verified.
+2018-11-13T21:58:13.216Z - info: Environment variables loaded.
+2018-11-13T21:58:13.249Z - info: START seeder.
+2018-11-13T21:58:13.252Z - debug: 5 products seeded
+2018-11-13T21:58:13.254Z - debug: 4 orders seeded
+2018-11-13T21:58:13.254Z - info: END Seeder. Sample data read and verified.
+2018-11-13T21:58:22.826Z - info: Environment variables loaded.
+2018-11-13T21:58:22.856Z - info: START seeder.
+2018-11-13T21:58:22.860Z - debug: 5 products seeded
+2018-11-13T21:58:22.862Z - debug: 4 orders seeded
+2018-11-13T21:58:22.862Z - info: END Seeder. Sample data read and verified.
+2018-11-13T21:58:42.863Z - info: Environment variables loaded.
+2018-11-13T21:58:42.895Z - info: START seeder.
+2018-11-13T21:58:42.898Z - debug: 5 products seeded
+2018-11-13T21:58:42.899Z - debug: 4 orders seeded
+2018-11-13T21:58:42.899Z - info: END Seeder. Sample data read and verified.
+2018-11-13T21:58:55.513Z - info: Environment variables loaded.
+2018-11-13T21:58:55.547Z - info: START seeder.
+2018-11-13T21:58:55.551Z - debug: 5 products seeded
+2018-11-13T21:58:55.552Z - debug: 4 orders seeded
+2018-11-13T21:58:55.552Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:04:11.582Z - info: Environment variables loaded.
+2018-11-13T22:04:11.610Z - info: START seeder.
+2018-11-13T22:04:11.613Z - debug: 5 products seeded
+2018-11-13T22:04:11.614Z - debug: 4 orders seeded
+2018-11-13T22:04:11.616Z - debug: 4 customers seeded
+2018-11-13T22:04:11.616Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:06:47.373Z - info: Environment variables loaded.
+2018-11-13T22:06:47.405Z - info: START seeder.
+2018-11-13T22:06:47.408Z - debug: 5 products seeded
+2018-11-13T22:06:47.409Z - debug: 4 orders seeded
+2018-11-13T22:06:47.411Z - debug: 4 customers seeded
+2018-11-13T22:06:47.411Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:07:00.072Z - info: Environment variables loaded.
+2018-11-13T22:07:00.103Z - info: START seeder.
+2018-11-13T22:07:00.106Z - debug: 5 products seeded
+2018-11-13T22:07:00.108Z - debug: 4 orders seeded
+2018-11-13T22:07:00.109Z - debug: 4 customers seeded
+2018-11-13T22:07:00.109Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:07:16.366Z - info: Environment variables loaded.
+2018-11-13T22:07:16.392Z - info: START seeder.
+2018-11-13T22:07:16.396Z - debug: 5 products seeded
+2018-11-13T22:07:16.398Z - debug: 4 orders seeded
+2018-11-13T22:07:16.399Z - debug: 4 customers seeded
+2018-11-13T22:07:16.399Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:07:17.683Z - info: Environment variables loaded.
+2018-11-13T22:07:17.710Z - info: START seeder.
+2018-11-13T22:07:17.713Z - debug: 5 products seeded
+2018-11-13T22:07:17.715Z - debug: 4 orders seeded
+2018-11-13T22:07:17.716Z - debug: 4 customers seeded
+2018-11-13T22:07:17.716Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:08:39.887Z - info: Environment variables loaded.
+2018-11-13T22:08:39.925Z - info: START seeder.
+2018-11-13T22:08:39.928Z - debug: 5 products seeded
+2018-11-13T22:08:39.930Z - debug: 4 orders seeded
+2018-11-13T22:08:39.931Z - debug: 4 customers seeded
+2018-11-13T22:08:39.931Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:08:56.005Z - info: Environment variables loaded.
+2018-11-13T22:08:56.033Z - info: START seeder.
+2018-11-13T22:08:56.037Z - debug: 5 products seeded
+2018-11-13T22:08:56.038Z - debug: 4 orders seeded
+2018-11-13T22:08:56.040Z - debug: 4 customers seeded
+2018-11-13T22:08:56.040Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:09:15.629Z - info: Environment variables loaded.
+2018-11-13T22:09:15.662Z - info: START seeder.
+2018-11-13T22:09:15.665Z - debug: 5 products seeded
+2018-11-13T22:09:15.667Z - debug: 4 orders seeded
+2018-11-13T22:09:15.668Z - debug: 4 customers seeded
+2018-11-13T22:09:15.668Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:10:44.978Z - info: Environment variables loaded.
+2018-11-13T22:10:45.012Z - info: START seeder.
+2018-11-13T22:10:45.016Z - debug: 5 products seeded
+2018-11-13T22:10:45.018Z - debug: 4 orders seeded
+2018-11-13T22:10:45.019Z - debug: 4 customers seeded
+2018-11-13T22:10:45.019Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:13:25.216Z - info: Environment variables loaded.
+2018-11-13T22:13:25.244Z - info: START seeder.
+2018-11-13T22:13:25.247Z - debug: 5 products seeded
+2018-11-13T22:13:25.249Z - debug: 4 orders seeded
+2018-11-13T22:13:25.250Z - debug: 4 customers seeded
+2018-11-13T22:13:25.250Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:13:30.319Z - info: Environment variables loaded.
+2018-11-13T22:13:30.348Z - info: START seeder.
+2018-11-13T22:13:30.352Z - debug: 5 products seeded
+2018-11-13T22:13:30.354Z - debug: 4 orders seeded
+2018-11-13T22:13:30.355Z - debug: 4 customers seeded
+2018-11-13T22:13:30.355Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:14:00.727Z - info: Environment variables loaded.
+2018-11-13T22:14:00.759Z - info: START seeder.
+2018-11-13T22:14:00.762Z - debug: 5 products seeded
+2018-11-13T22:14:00.765Z - debug: 4 orders seeded
+2018-11-13T22:14:00.766Z - debug: 4 customers seeded
+2018-11-13T22:14:00.766Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:20:32.013Z - info: Environment variables loaded.
+2018-11-13T22:20:32.044Z - info: START seeder.
+2018-11-13T22:20:32.047Z - debug: 5 products seeded
+2018-11-13T22:20:32.050Z - debug: 4 orders seeded
+2018-11-13T22:20:32.055Z - debug: 4 customers seeded
+2018-11-13T22:20:32.055Z - info: END Seeder. Sample data read and verified.
+2018-11-13T22:23:05.495Z - info: Environment variables loaded.
+2018-11-13T22:23:05.528Z - info: START seeder.
+2018-11-13T22:23:05.533Z - debug: 5 products seeded
+2018-11-13T22:23:05.536Z - debug: 4 orders seeded
+2018-11-13T22:23:05.537Z - debug: 4 customers seeded
+2018-11-13T22:23:05.537Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:08:03.946Z - info: Environment variables loaded.
+2018-11-14T00:08:03.991Z - info: START seeder.
+2018-11-14T00:08:03.998Z - debug: 5 products seeded
+2018-11-14T00:08:04.000Z - debug: 4 orders seeded
+2018-11-14T00:08:04.002Z - debug: 4 customers seeded
+2018-11-14T00:08:04.007Z - debug: 4 Order Line seeded
+2018-11-14T00:08:04.007Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:08:31.619Z - info: Environment variables loaded.
+2018-11-14T00:08:31.660Z - info: START seeder.
+2018-11-14T00:08:31.664Z - debug: 5 products seeded
+2018-11-14T00:08:31.668Z - debug: 4 orders seeded
+2018-11-14T00:08:31.670Z - debug: 4 customers seeded
+2018-11-14T00:08:31.672Z - debug: 4 Order Line seeded
+2018-11-14T00:08:31.672Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:13:54.464Z - info: Environment variables loaded.
+2018-11-14T00:13:54.515Z - info: START seeder.
+2018-11-14T00:13:54.520Z - debug: 5 products seeded
+2018-11-14T00:13:54.523Z - debug: 4 orders seeded
+2018-11-14T00:13:54.525Z - debug: 4 customers seeded
+2018-11-14T00:13:54.529Z - debug: 4 Order Line seeded
+2018-11-14T00:13:54.529Z - info: END Seeder. Sample data read and verified.
+2018-11-14T00:15:57.051Z - info: Environment variables loaded.
+2018-11-14T00:15:57.102Z - info: START seeder.
+2018-11-14T00:15:57.106Z - debug: 5 products seeded
+2018-11-14T00:15:57.108Z - debug: 4 orders seeded
+2018-11-14T00:15:57.110Z - debug: 4 customers seeded
+2018-11-14T00:15:57.114Z - debug: 4 Order Line seeded
+2018-11-14T00:15:57.114Z - info: END Seeder. Sample data read and verified.
+2018-11-15T04:15:09.773Z - info: Environment variables loaded.
+2018-11-15T04:15:09.932Z - info: START seeder.
+2018-11-15T04:15:09.935Z - debug: 5 products seeded
+2018-11-15T04:15:09.937Z - debug: 4 orders seeded
+2018-11-15T04:15:09.938Z - debug: 4 customers seeded
+2018-11-15T04:15:09.939Z - debug: 4 Order Line seeded
+2018-11-15T04:15:09.939Z - info: END Seeder. Sample data read and verified.
+2018-11-15T04:15:11.568Z - info: Environment variables loaded.
+2018-11-15T04:15:11.603Z - info: START seeder.
+2018-11-15T04:15:11.607Z - debug: 5 products seeded
+2018-11-15T04:15:11.609Z - debug: 4 orders seeded
+2018-11-15T04:15:11.610Z - debug: 4 customers seeded
+2018-11-15T04:15:11.617Z - debug: 4 Order Line seeded
+2018-11-15T04:15:11.617Z - info: END Seeder. Sample data read and verified.
+2018-11-15T04:24:52.048Z - info: Environment variables loaded.
+2018-11-15T04:24:52.079Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:24:52 GMT-0600 (Central Standard Time), pid=8388, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=68444160, heapTotal=62205952, heapUsed=37625192, external=19590162, loadavg=[0, 0, 0], uptime=93240
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:24:56.949Z - info: Environment variables loaded.
+2018-11-15T04:24:56.973Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:24:56 GMT-0600 (Central Standard Time), pid=12664, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=66605056, heapTotal=62730240, heapUsed=35933608, external=19330251, loadavg=[0, 0, 0], uptime=93245
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:26:36.868Z - info: Environment variables loaded.
+2018-11-15T04:26:36.894Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:26:36 GMT-0600 (Central Standard Time), pid=10968, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=67690496, heapTotal=62730240, heapUsed=37265904, external=19471760, loadavg=[0, 0, 0], uptime=93345
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:27:45.588Z - info: Environment variables loaded.
+2018-11-15T04:27:45.613Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:27:45 GMT-0600 (Central Standard Time), pid=11640, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=67616768, heapTotal=62730240, heapUsed=37257024, external=19471760, loadavg=[0, 0, 0], uptime=93414
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:27:58.681Z - info: Environment variables loaded.
+2018-11-15T04:27:58.705Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:27:58 GMT-0600 (Central Standard Time), pid=10488, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=69111808, heapTotal=61157376, heapUsed=38191296, external=19685917, loadavg=[0, 0, 0], uptime=93427
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:28:04.047Z - info: Environment variables loaded.
+2018-11-15T04:28:04.073Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:28:04 GMT-0600 (Central Standard Time), pid=11400, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=67334144, heapTotal=62730240, heapUsed=36617656, external=19381768, loadavg=[0, 0, 0], uptime=93432
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:30:23.794Z - info: Environment variables loaded.
+2018-11-15T04:30:23.820Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:30:23 GMT-0600 (Central Standard Time), pid=12196, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=68861952, heapTotal=61157376, heapUsed=38244392, external=19666075, loadavg=[0, 0, 0], uptime=93572
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:30:47.547Z - info: Environment variables loaded.
+2018-11-15T04:30:47.571Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:30:47 GMT-0600 (Central Standard Time), pid=13684, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=66621440, heapTotal=62730240, heapUsed=36028440, external=19349840, loadavg=[0, 0, 0], uptime=93596
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:31:33.568Z - info: Environment variables loaded.
+2018-11-15T04:31:33.595Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:31:33 GMT-0600 (Central Standard Time), pid=13500, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=69111808, heapTotal=61157376, heapUsed=38189848, external=19666075, loadavg=[0, 0, 0], uptime=93642
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:84:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:31:56.078Z - info: Environment variables loaded.
+2018-11-15T04:31:56.105Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:31:56 GMT-0600 (Central Standard Time), pid=7140, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=69136384, heapTotal=61681664, heapUsed=38115944, external=19666075, loadavg=[0, 0, 0], uptime=93664
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:43:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:32:02.904Z - info: Environment variables loaded.
+2018-11-15T04:32:02.929Z - error: uncaughtException: Cannot find module '/routes/index.js' date=Wed Nov 14 2018 22:32:02 GMT-0600 (Central Standard Time), pid=13684, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=69287936, heapTotal=61157376, heapUsed=38371624, external=19666075, loadavg=[0, 0, 0], uptime=93671
+Error: Cannot find module '/routes/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:43:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:32:25.624Z - info: Environment variables loaded.
+2018-11-15T04:32:25.653Z - error: uncaughtException: app is not defined date=Wed Nov 14 2018 22:32:25 GMT-0600 (Central Standard Time), pid=13368, uid=null, gid=null, cwd=X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets, execPath=C:\Program Files\nodejs\node.exe, version=v10.10.0, argv=[C:\Program Files\nodejs\node.exe, X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js], rss=69013504, heapTotal=61681664, heapUsed=38005528, external=19657883, loadavg=[0, 0, 0], uptime=93694
+ReferenceError: app is not defined
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\routes\index.js:23:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (X:\Dropbox\NWMissouri\2018Fall\WebApps\gitRepos\EmptyYourPockets\app.js:43:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:279:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:696:3)
+2018-11-15T04:32:25.631Z - debug: Routing all requests...
+2018-11-15T04:33:09.435Z - info: Environment variables loaded.
+2018-11-15T04:33:09.442Z - debug: Routing all requests...
+2018-11-15T04:33:09.479Z - debug: Routing end.
+2018-11-15T04:33:09.479Z - info: Routing set at /routes/index.js
+2018-11-15T04:33:09.512Z - info: START seeder.
+2018-11-15T04:33:09.515Z - debug: 5 products seeded
+2018-11-15T04:33:09.517Z - debug: 4 orders seeded
+2018-11-15T04:33:09.519Z - debug: 4 customers seeded
+2018-11-15T04:33:09.520Z - debug: 4 Order Line seeded
+2018-11-15T04:33:09.520Z - info: END Seeder. Sample data read and verified.
+2018-11-15T04:33:55.621Z - info: Environment variables loaded.
+2018-11-15T04:33:55.626Z - debug: Routing all requests...
+2018-11-15T04:33:55.654Z - debug: Routing end.
+2018-11-15T04:33:55.654Z - info: Routing set at /routes/index.js
+2018-11-15T04:33:55.690Z - info: START seeder.
+2018-11-15T04:33:55.694Z - debug: 5 products seeded
+2018-11-15T04:33:55.695Z - debug: 4 orders seeded
+2018-11-15T04:33:55.697Z - debug: 4 customers seeded
+2018-11-15T04:33:55.698Z - debug: 4 Order Line seeded
+2018-11-15T04:33:55.698Z - info: END Seeder. Sample data read and verified.
+2018-11-15T04:34:09.756Z - info: Environment variables loaded.
+2018-11-15T04:34:09.762Z - debug: Routing all requests...
+2018-11-15T04:34:09.791Z - debug: Routing end.
+2018-11-15T04:34:09.791Z - info: Routing set at /routes/index.js
+2018-11-15T04:34:09.829Z - info: START seeder.
+2018-11-15T04:34:09.832Z - debug: 5 products seeded
+2018-11-15T04:34:09.833Z - debug: 4 orders seeded
+2018-11-15T04:34:09.834Z - debug: 4 customers seeded
+2018-11-15T04:34:09.836Z - debug: 4 Order Line seeded
+2018-11-15T04:34:09.836Z - info: END Seeder. Sample data read and verified.
+2018-11-15T04:34:59.610Z - info: Environment variables loaded.
+2018-11-15T04:34:59.616Z - debug: Routing all requests...
+2018-11-15T04:34:59.645Z - debug: Routing end.
+2018-11-15T04:34:59.645Z - info: Routing set at /routes/index.js
+2018-11-15T04:34:59.682Z - info: START seeder.
+2018-11-15T04:34:59.685Z - debug: 5 products seeded
+2018-11-15T04:34:59.687Z - debug: 4 orders seeded
+2018-11-15T04:34:59.688Z - debug: 4 customers seeded
+2018-11-15T04:34:59.689Z - debug: 4 Order Line seeded
+2018-11-15T04:34:59.689Z - info: END Seeder. Sample data read and verified.
+2018-11-15T04:39:47.370Z - info: Environment variables loaded.
+2018-11-15T04:39:47.375Z - debug: Routing all requests...
+2018-11-15T04:39:47.403Z - debug: Routing end.
+2018-11-15T04:39:47.404Z - info: Routing set at /routes/index.js
+2018-11-15T04:39:47.445Z - info: START seeder.
+2018-11-15T04:39:47.448Z - debug: 5 products seeded
+2018-11-15T04:39:47.449Z - debug: 4 orders seeded
+2018-11-15T04:39:47.451Z - debug: 4 customers seeded
+2018-11-15T04:39:47.452Z - debug: 4 Order Line seeded
+2018-11-15T04:39:47.452Z - info: END Seeder. Sample data read and verified.
+>>>>>>> b0bc1c4eed62a550309ca36888836a54a8d05f6c
+2018-11-15T20:14:40.156Z - info: Environment variables loaded.
+2018-11-15T20:14:40.161Z - debug: Routing all requests...
+2018-11-15T20:14:40.192Z - debug: Routing end.
+2018-11-15T20:14:40.192Z - info: Routing set at /routes/index.js
+2018-11-15T20:14:40.268Z - info: START seeder.
+2018-11-15T20:14:40.276Z - debug: 5 products seeded
+2018-11-15T20:14:40.282Z - debug: 4 orders seeded
+2018-11-15T20:14:40.289Z - debug: 4 customers seeded
+2018-11-15T20:14:40.293Z - debug: 4 Order Line seeded
+2018-11-15T20:14:40.294Z - info: END Seeder. Sample data read and verified.
