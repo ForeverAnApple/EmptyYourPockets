@@ -1,5 +1,5 @@
 /**
- * Controller for the product page
+ * Controller for the Orders page
  * @author Kolli, Pradeep
  */
 const express = require('express')
