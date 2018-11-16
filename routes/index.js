@@ -67,6 +67,7 @@ router.get("/", function (req, res) {
 router.use('/costomers', require('../controllers/customers.js'));
 router.use('/product', require('../controllers/product.js'))
 router.use('/order', require('../controllers/order.js'))
+router.use('/orderLine', require('../controllers/orderLine.js'))
 // ------------------------------------------------
 
 LOG.debug('Routing end.');

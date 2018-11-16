@@ -4,10 +4,9 @@
  */
 const mongoose = require('mongoose')
 const orderLineSchema = new mongoose.Schema({
-  _id: { type: Number, required: true },
-  orderID: {
-    type: Number,
-    required: true
+  _id: {
+    type: Number, 
+    required: true 
   },
   lineNumber: {
     type: Number,
