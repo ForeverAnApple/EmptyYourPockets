@@ -38,12 +38,16 @@ router.get("/", function (req, res) {
   res.render("product/index.ejs")
  })
 
- router.get("/order", function (req, res) {
+ router.get("/order/index", function (req, res) {
   res.render("order/index.ejs")
  })
 
- router.get("/orderLine", function (req, res) {
-  res.render("orderLine.ejs")
+ router.get("/orderLine/index", function (req, res) {
+  res.render("orderLine/index.ejs")
+ })
+
+ router.get("/customers/index", function (req, res) { //Did not add these line
+  res.render("customers/index.ejs")
  })
 
  router.get("/about", function (req, res) {
@@ -64,7 +68,7 @@ router.get("/", function (req, res) {
 
 // ------------- Controller pathing ---------------
 
-router.use('/costomers', require('../controllers/customers.js'));
+router.use('/customers', require('../controllers/customers.js')); //Was costomers
 router.use('/product', require('../controllers/product.js'))
 router.use('/order', require('../controllers/order.js'))
 router.use('/orderLine', require('../controllers/orderLine.js'))
