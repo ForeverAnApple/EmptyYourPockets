@@ -50,8 +50,8 @@ LOG.info('Routing set at /routes/index.js');
 // initialize data ............................................
 require('./utils/seeder.js')(app)  
  
- // Listen for an application request on designated port
- app.listen(port, function () {
-  console.log('Web app started and listening on http://localhost:' + port)
-  console.log('\nLogs will be sent to this terminal and ' + logfile + '.')
- })
+// Listen for an application request on designated port
+app.listen(port, function () {
+console.log('Web app started and listening on http://localhost:' + port)
+console.log('\nLogs will be sent to this terminal and ' + logfile + '.')
+})
