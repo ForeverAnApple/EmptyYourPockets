@@ -3,8 +3,6 @@ node_modules
 .vscode
 /.vscode
 access.log
-logs
-
 
 lib-cov
 *.seed
@@ -16,13 +14,9 @@ lib-cov
 *.gz
 *.swp
 
-
 pids
 results
 tmp
-
-# Debug log is individual
-logs/debug.log
 
 # API keys and secrets
 .env

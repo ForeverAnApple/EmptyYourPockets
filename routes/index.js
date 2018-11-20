@@ -34,8 +34,12 @@ router.get("/", function (req, res) {
   res.render("products.ejs")
  })
 
+ router.get("/product/index", function (req, res) {
+  res.render("product/index.ejs")
+ })
+
  router.get("/order", function (req, res) {
-  res.render("order.ejs")
+  res.render("order/index.ejs")
  })
 
  router.get("/orderLine", function (req, res) {
@@ -61,7 +65,9 @@ router.get("/", function (req, res) {
 // ------------- Controller pathing ---------------
 
 router.use('/costomers', require('../controllers/customers.js'));
-
+router.use('/product', require('../controllers/product.js'))
+router.use('/order', require('../controllers/order.js'))
+router.use('/orderLine', require('../controllers/orderLine.js'))
 // ------------------------------------------------
 
 LOG.debug('Routing end.');
