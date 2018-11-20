@@ -5,7 +5,7 @@
       "productDescription": "Iphone is a smart phone released by Apple",
       "price": 600,
       "productCategory": "Mobile",
-      "sellerId":"1"
+      "sellerId":1
     },
     {
         "_productid": 2,
@@ -13,7 +13,7 @@
         "productDescription": "Sony Mx150 is a head phones designed by sony",
         "price": 30,
         "productCategory": "Accessories",
-        "sellerId":"2"
+        "sellerId":2
       },
       {
         "_productid": 3,
@@ -21,7 +21,7 @@
         "productDescription": "Jeans by Flying machine",
         "price": 25,
         "productCategory": "Clothing",
-        "sellerId":"3"
+        "sellerId":3
       },
       {
         "_productid": 4,
@@ -29,7 +29,7 @@
         "productDescription": "T-shirt Us polo",
         "price": 20,
         "productCategory": "Clothing",
-        "sellerId":"4"
+        "sellerId":4
       },
       {
         "_productid": 5,
@@ -37,6 +37,6 @@
         "productDescription": "Kindle is a tablet released by Amazon",
         "price": 200,
         "productCategory": "Electronic",
-        "sellerId":"5"
+        "sellerId":5
       }
 ]
