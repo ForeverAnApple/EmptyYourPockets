@@ -45,7 +45,7 @@ api.get('/create', (req, res) => {
     {
       title: 'Create orders',
       layout: 'layout.ejs',
-      product: item
+      orders: item
     })
 })
 
@@ -61,14 +61,14 @@ api.get('/delete/:id', (req, res) => {
     {
       title: 'Delete orders',
       layout: 'layout.ejs',
-      product: item
+      orders: item
     })
 })
 
 // GET /details/:id
 api.get('/details/:id', (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
-  const id = parseInt(req.params.id, 10) // base 10
+  const id = parseInt(req.params.id) // base 10
   const data = req.app.locals.orders.query
   const item = find(data, { _orderid: id })
   if (!item) { return res.end(notfoundstring) }
@@ -77,7 +77,7 @@ api.get('/details/:id', (req, res) => {
     {
       title: 'order Details',
       layout: 'layout.ejs',
-      product: item
+      orders: item
     })
 })
 
@@ -86,14 +86,14 @@ api.get('/edit/:id', (req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.orders.query
-  const item = find(data, { _productid: id })
+  const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
   return res.render('order/edit.ejs',
     {
       title: 'orders',
       layout: 'layout.ejs',
-      product: item
+      orders: item
     })
 })
 
@@ -109,10 +109,10 @@ api.post('/save', (req, res) => {
   item._orderid = parseInt(req.body._orderid, 10) // base 10
   item.orderDate = req.body.orderDate
   item._productid = req.body._productid
-  item.totalAmount = parseInt(req.body.price, 10)
+  item.totalAmount = parseInt(req.body.totalAmount, 10)
 
     data.push(item)
-    LOG.info(`SAVING NEW product ${JSON.stringify(item)}`)
+    LOG.info(`SAVING NEW ORDER ${JSON.stringify(item)}`)
     return res.redirect('/order')
   }
 )
@@ -127,12 +127,11 @@ api.post('/save/:id', (req, res) => {
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
   LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
-  item.productName = req.body.productName
-  item.productDescription = req.body.productDescription
-  item.price = parseInt(req.body.price, 10)
-  item.productCategory = req.body.productCategory
-  item.sellerId = req.body.sellerId
-  LOG.info(`SAVING UPDATED product ${JSON.stringify(item)}`)
+  item._orderid = parseInt(req.body._orderid, 10) // base 10
+  item.orderDate = req.body.orderDate
+  item._productid = req.body._productid
+  item.totalAmount = parseInt(req.body.totalAmount, 10)
+  LOG.info(`SAVING UPDATED ORDER ${JSON.stringify(item)}`)
   return res.redirect('/order')
   
 })

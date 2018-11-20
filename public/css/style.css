@@ -44,16 +44,29 @@
     background: #fff;
 }
 .navbar-brand{
-    font-family: 'Mafakanav',Arial, Helvetica, sans-serif;
-    font-size: 1.8em;
+    font-family: 'GoodTimes',Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     font-weight: bold;
 }
 #navbarNavDropdown ul.navbar-nav li.nav-item{
 	font-family: 'GoodTimes',Arial, Helvetica, sans-serif;
-	font-weight: bold;
+	font-size: 0.8em;
+	font-weight: normal;
 }
 #navbarNavDropdown ul.navbar-nav li.nav-item.active{
 	text-decoration:underline;
+	font-size: 1.0em;
+}
+#navbarNavDropdown .dropdown-menu{
+	background: #e40046;
+    font-size: 0.8em;
+    z-index: 999;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#navbarNavDropdown .dropdown-menu a:hover{
+	background: #c3003c;
 }
 ul.nav.nav-tabs {
     margin-top:15px;
@@ -224,12 +237,7 @@ section ol{
 	box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 	border-radius: 3px;
 }
-.dropdown-menu{
-	background: #e40046;
-}
-.dropdown-menu a:hover{
-	background: #c3003c;
-}
+
 footer{
 	position:fixed;
 	bottom:0;
