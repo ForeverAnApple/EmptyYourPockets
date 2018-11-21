@@ -9,12 +9,12 @@
       <div class="content">
         <form method="POST" action="/order/save/<%= order._orderid %>">
           <div class="form-group" id=frm>
-            <label for="_id">ID</label>
-            <input type="number" class="form-control" id="_id" name="_id" value="<%= orders._orderid %>" required disabled>
+            <label for="_orderid">ID</label>
+            <input type="number" class="form-control" id="_orderid" name="_orderid" value="<%= order._orderid %>" required disabled>
           </div>
             <!-- COMMON TO EDIT AND CREATE -->
             <%include partial_edit.ejs %>
-              <input type="submit" value="Save" class="btn btn-primary" id="editSave" />
+              <input type="submit" value="Save" class="btn btn-primary" />
         </form>
         <br/>
 

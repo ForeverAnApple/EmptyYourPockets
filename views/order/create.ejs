@@ -8,9 +8,8 @@
             <h2>Create a new Order </h2>
             <br />
 
-            <% let maxID=0; %>
-            <% for (var i=0; i< orders.length; i++) {
-                if(orders[i]._orderid > maxID) { 
+            <%  maxID=0; for (var i=0; i < orders.query.length; i++) {
+                if(orders.query[i]._orderid > maxID) { 
                     maxID=orders.query[i]._orderid;   
                 } 
             }
@@ -21,8 +20,8 @@
                     <form name="order" method="POST" action="/order/save">
 
                         <div class="form-group" id=frm>
-                            <label for="_id">ID</label>
-                            <input type="number" class="form-control" id="_id" name="_id" value="<%= maxID+1 %>"
+                            <label for="_orderid">ID</label>
+                            <input type="number" class="form-control" id="_orderid" name="_orderid" value="<%= maxID+1 %>"
                                 required readonly>
                         </div>
 
