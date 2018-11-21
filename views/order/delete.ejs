@@ -1,14 +1,16 @@
 <br />
 <br />
-<h2>Confirm deletion of puppy</h2>
+<h2>Confirm deletion of order</h2>
 ID:
-<%=  order._orderid %>
+<%=  orders._orderid %>
 <br> Order Date:
-<%= order.orderDate %>
+<%= orders.orderDate %>
 <br /> Product ID:
-<%= order._productid %>
+<%= orders._productid %>
 <br /> Customer ID:
-<%= order._customerid %>
+<%= orders._customerid %>
+<br /> total amount:
+<%= orders.totalAmount %>
 <br />
 <br />
 <br />
@@ -22,6 +24,6 @@ ID:
 </form>
 
 <br />
-<form method="POST" action="/order/delete/<%= order._orderid %>">
+<form method="POST" action="/order/delete/<%= orders._orderid %>">
     <input type="submit" value="Delete this item" class="btn btn-danger pull-right" />
 </form>
