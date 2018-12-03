@@ -26,7 +26,7 @@ api.get('/findone/:id', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.customers.query
-  const item = find(data, { _customersid: id })
+  const item = find(data, { _customerid: id })
   if (!item) { return res.end(notfoundstring) }
   res.send(JSON.stringify(item))
 })
@@ -56,7 +56,7 @@ api.get('/delete/:id', (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.customers.query
-  const item = find(data, { _customersid: id })
+  const item = find(data, { _customerid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
   return res.render('customers/delete.ejs',
@@ -72,7 +72,7 @@ api.get('/details/:id', (req, res) => {
   LOG.info(`Handling GET /details/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
   const data = req.app.locals.customers.query
-  const item = find(data, { _customersid: id })
+  const item = find(data, { _customerid: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
   return res.render('customers/details.ejs',
@@ -107,12 +107,11 @@ api.post('/save', (req, res) => {
   LOG.debug(JSON.stringify(req.body))
   const data = req.app.locals.customers.query
   const item = new Model()
-  LOG.info(`NEW ID ${req.body._customersid}`)
-  item._customersid = parseInt(req.body._customersid, 10) // base 10
+  LOG.info(`NEW ID ${req.body._customerid}`)
+  item._customerid = parseInt(req.body._customerid, 10) // base 10
   item.name = req.body.name
   item.premium = req.body.premium
   item.wallet = parseFloat(req.body.wallet, 10)
-
     data.push(item)
     LOG.info(`SAVING NEW customer ${JSON.stringify(item)}`)
     return res.redirect('/customers')
