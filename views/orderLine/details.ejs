@@ -1,1 +1,17 @@
-<h2>detail of orderLine</h2>
+<p><h2> Orders Details </h2></p>
+
+<br />
+<br/>
+<br/> ID:
+<%=  orderLine._id %>
+  <br> orderLine Line number:
+  <%=orderLine.lineNumber%>
+    <br/> Product ID:
+    <%=orderLine.productID%>
+      <br/> Quantity :
+      <%=orderLine.quantity%>
+    <br />
+    <br /><br/>
+    <form method="get" action="/orderLine">
+       <input type="submit" value="Return to list" class="btn btn-caution" />
+    </form>

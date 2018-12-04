@@ -7,9 +7,15 @@
     <div class="col col-md-12">
       <h2>Edit orderLine </h2>
       <div class="content">
-        <form method="POST" action="/orderLine/save/<%= orderLine._id %>">
+        <form method="POST" action="/orderLine/save/<%= orderLine._orderid %>">
           <div class="form-group" id=frm>
             <label for="_id">ID</label> 
+            <input type="number" class="form-control" id="_id" name="_id" value="<%= orderLine._id %>" required>
+          </div>
+          <% var sqft = orderLineItem.orderID %>
+          <%include partial_edit.ejs %>
+          <input type="submit" value="Save" class="btn btn-primary" />
+        </form>
         <br/>
 
         <form method="get" action="/orderLine">
@@ -19,5 +25,4 @@
     </div>
   </div>
 </div>
-
 <% include footer %>
