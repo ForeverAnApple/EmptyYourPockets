@@ -45,7 +45,7 @@ api.get('/create', (req, res) => {
     {
       title: 'Create orderLine',
       layout: 'layout.ejs',
-      orderLine: item
+      orderLineItem: item
     })
 })
  
@@ -93,7 +93,7 @@ api.get('/edit/:id', (req, res) => {
     {
       title: 'Order Line',
       layout: 'layout.ejs',
-      orderLine: item
+      orderLineItem: item
     })
 })
 

@@ -25,38 +25,6 @@ router.get("/", function (req, res) {
   res.render("index.ejs")
  })
 
- router.get("/index", function (req, res) {
-  //res.sendFile(path.join(__dirname + '/assets/index.html'))
-  res.render("index.ejs")
- })
-
- router.get("/products", function (req, res) {
-  res.render("products.ejs")
- })
-
- router.get("/product/index", function (req, res) {
-  res.render("product/index.ejs")
- })
-
- router.get("/order/index", function (req, res) {
-  res.render("order/index.ejs")
- })
-
- router.get("/orderLine/index", function (req, res) {
-  res.render("orderLine/index.ejs")
- })
-
- router.get("/customers/index", function (req, res) { //Did not add these line
-  res.render("customers/index.ejs")
- })
-
- router.get("/about", function (req, res) {
-  res.render("aboutus.ejs")
- })
-
- router.get("/contact", function (req, res) {
-  res.render("contactus.ejs")
- })
 //  router.get("/404", function (req, res) {
 //   res.render("404.ejs")
 //  })

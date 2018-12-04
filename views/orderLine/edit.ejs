@@ -5,10 +5,10 @@
     <div class="col col-md-12">
       <h2>Edit orderLine </h2>
       <div class="content">
-        <form method="POST" action="/orderLine/save/<%= orderLine._orderid %>">
+        <form method="POST" action="/orderLine/save/<%= orderLineItem._id %>">
           <div class="form-group" id=frm>
             <label for="_id">ID</label> 
-            <input type="number" class="form-control" id="_id" name="_id" value="<%= orderLine._id %>" required>
+            <input type="number" class="form-control" id="_id" name="_id" value="<%= orderLineItem._id %>" required>
           </div>
           <% var sqft = orderLine.orderID %>
           <%include partial_edit.ejs %>

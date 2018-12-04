@@ -1,42 +1,43 @@
-<br/>
-<br/>
+<br />
+<br />
 <div class="container-fluid">
   <div class=row>
     <div class="col col-md-12">
       <a href="orderLine/create" class="btn btn-primary new">
-        Create a new product
+        Create a new order line
       </a>
-      <h2>Recent product entries</h2>
+      <h2>Recent order line entries</h2>
       <p>There are
-        <%= orderLine.query.length %> products.
-    </p>
-    <% for ( let i = 0; i < orderLine.query.length; i++) {   
-      orderLine = orderLine.query[i];   %>
+        <%= orderLine.query.length %> order lines.
+      </p>
+      <% for ( let i = orderLine.query.length-1; i >=0; i--) {   
+      orderLineitem = orderLine.query[i];   %>
       <div class="panel panel-default">
-      <div class="panel-heading"></div>
-      <div class="text-muted pull-right"></div>
-      <div class="panel-body">
-      ID:
-      <%=orderLine._id %>
-      <br> Order ID:
-      <%=orderLine.orderID %>
-      <br> Line Number:
-      <%=orderLine.lineNumber %>
-      <br> product ID:
-      <%=orderLine.productID %>
-      <br>quantity:
-      <%=orderLine.quantity %>
-      <br>
-          
-    <br>
-    <br>
-    <a href="/orderLine/delete/<%= orderLine._id %>" class="btn btn-danger"> Delete </a>
-    <a href="/orderLine/details/<%= orderLine._id %>" class="btn btn-info"> Details </a>
-    <a href="/orderLine/edit/<%= orderLine._id %>" class="btn btn-warning"> Edit </a>
+        <div class="panel-heading"></div>
+        <div class="text-muted pull-right"></div>
+        <div class="panel-body">
+          ID:
+          <%=orderLineitem._id %>
+          <br> Order ID:
+          <%=orderLineitem.orderID %>
+          <br> Line Number:
+          <%=orderLineitem.lineNumber %>
+          <br> product ID:
+          <%=orderLineitem.productID %>
+          <br>quantity:
+          <%=orderLineitem.quantity %>
+          <br/>
+          <br/>
+          <a href="/orderLine/delete/<%= orderLineitem._id %>" class="btn btn-danger"> Delete </a>
+          <a href="/orderLine/details/<%= orderLineitem._id %>" class="btn btn-info"> Details </a>
+          <a href="/orderLine/edit/<%= orderLineitem._id %>" class="btn btn-warning"> Edit </a>
+          <br/>
+          <br/>
+          <br/>
+        </div>
+      </div>
+      <% } %>
+
+    </div>
   </div>
-  </div>
-  <% } %>
- 
-</div>
-</div>
 </div>
