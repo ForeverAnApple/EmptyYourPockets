@@ -1,30 +1,30 @@
 [
     {
         "_id": 1,
-        "orderID": 1234,
+        "orderID": 1,
         "lineNumber": 1,
-        "productID": "Coffee Mug",
+        "productID": 1,
         "quantity" : 2
     },
     {
         "_id": 2,
-        "orderID": 6789,
+        "orderID": 2,
         "lineNumber": 2,
-        "productID": "Comfy Couch",
+        "productID": 2,
         "quantity" : 1
     },
     {
         "_id": 3,
-        "orderID": 1112,
+        "orderID": 3,
         "lineNumber": 3,
-        "productID": "Playstation 4",
+        "productID": 2,
         "quantity" : 1
     },
     {
         "_id": 4,
-        "orderID": 1415,
+        "orderID": 4,
         "lineNumber": 4,
-        "productID": "FIFA 18",
+        "productID": 4,
         "quantity" : 1
     }
 ]

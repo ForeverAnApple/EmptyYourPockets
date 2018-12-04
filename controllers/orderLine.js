@@ -48,7 +48,7 @@ api.get('/create', (req, res) => {
       orderLine: item
     })
 })
-
+ 
 // GET /delete/:id
 api.get('/delete/:id', (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
@@ -107,6 +107,7 @@ api.post('/save', (req, res) => {
   const item = new Model()
   LOG.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id, 10) // base 10
+  item.orderID = parseInt(req.body._id, 10) // base 10
   item.lineNumber = req.body.lineNumber
   item.productID = req.body.productID
   item.quantity = parseInt(req.body.quantity, 10)
@@ -126,6 +127,7 @@ api.post('/save/:id', (req, res) => {
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
   LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
+  item.orderID =  parseInt(req.body.lineNumber, 10)
   item.lineNumber = parseInt(req.body.lineNumber, 10)
   item.productID = req.body.productID
   item.quantity = parseInt(req.body.quantity, 10)
