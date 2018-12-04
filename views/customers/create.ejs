@@ -8,9 +8,9 @@
       <br/>
       <h2>Create a new customers </h2>
       <br/>
-      <% maxID=0; for (var i=0; i < puppies.query.length; i++) {
-      if(puppies.query[i]._id > maxID) { maxID=puppies.query[i]._id;   }
-      var age = puppies.query[i].age;}%>
+      <% maxID=0; for (var i=0; i < customers.query.length; i++) {
+      if(customers.query[i]._id > maxID) { maxID=customers.query[i]._id;   }
+      var age = customers.query[i].age;}%>
         <div class="content">
           <div>
             <form name="customers" method="POST" action="/customers/save">
