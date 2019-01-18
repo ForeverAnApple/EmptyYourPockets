@@ -30,8 +30,8 @@ Our aim in this world is to empty the pockets of all visitors on our website. We
 ## Get Started
 
 You can navigate through three pages.
-1. Home page - Home page shows latest products and offers. 
-2. Products - A page in which you find latest products. 
+1. Home page - Home page shows latest products and offers.
+2. Products - A page in which you find latest products.
 3. Order - Create or manage Existing orders.
 4. Order Line - Manage line items in your order.
 5. Customers - Manage customer profile who shares the same account.
@@ -41,7 +41,7 @@ You can navigate through three pages.
 
 ## LINK to the demo
 
-http://emptyyourpockets.herokuapp.com/
+http://empty-your-pockets.herokuapp.com/
 
 ## How to use this on your local machine
 
@@ -52,4 +52,4 @@ http://emptyyourpockets.herokuapp.com/
 5. Install all the dependencies in that folder by doing an npm install on it. ["type : npm install"]
 6. Once this is done type "node app.js" to start the application.
 7. Now the project should be started. Go to chrome and type localhost:8081/
-8. If you already have a program running on this port Go to app.js and change the PORT number.  
+8. If you already have a program running on this port Go to app.js and change the PORT number.
