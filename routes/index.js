@@ -36,10 +36,12 @@ router.get("/", function (req, res) {
 
 // ------------- Controller pathing ---------------
 
-router.use('/customers', require('../controllers/customers.js')); //Was costomers
+router.use('/customers', require('../controllers/customers.js')); //Was customers
 router.use('/product', require('../controllers/product.js'))
 router.use('/order', require('../controllers/order.js'))
 router.use('/orderLine', require('../controllers/orderLine.js'))
+router.use('/contactus', require('../controllers/contactus.js'))
+
 // ------------------------------------------------
 
 LOG.debug('Routing end.');
