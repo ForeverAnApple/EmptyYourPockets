@@ -42,6 +42,8 @@ app.use(errorHandler()) // load error handler
 
 const routes = require('./routes/index.js');
 app.use('/', routes);
+// app.use(app.router);
+// routes.initialize(app);
 LOG.info('Routing set at /routes/index.js');
 
 // ----------------------------------------
@@ -55,3 +57,4 @@ app.listen(port, function () {
 console.log('Web app started and listening on http://localhost:' + port)
 console.log('\nLogs will be sent to this terminal and ' + logfile + '.')
 })
+

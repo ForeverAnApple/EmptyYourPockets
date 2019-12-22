@@ -41,7 +41,7 @@ router.use('/product', require('../controllers/product.js'))
 router.use('/order', require('../controllers/order.js'))
 router.use('/orderLine', require('../controllers/orderLine.js'))
 router.use('/contactus', require('../controllers/contactus.js'))
-
+router.use('/about', require('../controllers/about.js'))
 // ------------------------------------------------
 
 LOG.debug('Routing end.');
